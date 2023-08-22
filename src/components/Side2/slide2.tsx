@@ -61,7 +61,7 @@ const Slide2: React.FC = () => {
       <div className=" flex flex-col gap-3 card1 rounded-2xl" data-aos="fade-down">
         <div className="flex flex-row justify-between p-10">
           <h1 className=" text-2xl font-bold">Bookmarks</h1>
-          <div className="flex flex-row gap-10">
+          <div className="flex flex-row gap-5">
           <img src={icon1} alt="" className="w-[100%] h-[80%] cursor-pointer" />
             <img src={icon2} alt="" className="w-[100%] h-[80%] cursor-pointer" />
             <img src={icon3} alt="" className="w-[100%] h-[80%] cursor-pointer" />
@@ -71,32 +71,32 @@ const Slide2: React.FC = () => {
 
         <div className={open4?"hidden":"grid grid-cols-4"}>
           <a href="https://www.microsoft.com/en-us/microsoft-365/word" className="flex flex-col items-center text-center">
-            <img src={icons6} alt="" className="h-[4rem]" />
+            <img src={icons6} alt="" className="h-[2.5rem]" />
             <p>Word doc</p>
           </a>
 
           <a href="https://www.microsoft.com/en-us/?ql=2" className="flex flex-col items-center text-center">
-            <img src={icons1} alt="" className="h-[4rem]" />
+            <img src={icons1} alt="" className="h-[2.5rem]" />
             <p>Mircosoft</p>
           </a>
 
           <a href="https://www.gmail.com/" className="flex flex-col items-center text-center">
-            <img src={icons2} alt="" className="h-[4rem]" />
+            <img src={icons2} alt="" className="h-[2.5rem]" />
             <p>Gmail</p>
           </a>
 
           <a href="https://chat.openai.com/" className="flex flex-col items-center text-center">
-            <img src={icons3} alt="" className="h-[4rem]" />
+            <img src={icons3} alt="" className="h-[2.5rem]" />
             <p>Chatgpt</p>
           </a>
 
           <a href="https://www.whatsapp.com/" className="flex flex-col items-center text-center">
-            <img src={icons4} alt="" className="h-[4rem]" />
+            <img src={icons4} alt="" className="h-[2.5rem]" />
             <p>Whatsapp</p>
           </a>
 
           <a href="https://www.instagram.com/" className="flex flex-col items-center text-center pb-9">
-            <img src={icons5} alt="" className="h-[4rem]" />
+            <img src={icons5} alt="" className="h-[2.5rem]" />
             <p>Instagram</p>
           </a>
         </div>
