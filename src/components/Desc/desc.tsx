@@ -1,7 +1,7 @@
-import Side1 from '../Side1'
-import Side2 from '../Side2'
-import Side3 from '../Side3'
-const index = () => {
+import Side1 from '../Side1/slide1'
+import Side2 from '../Side2/slide2'
+import Side3 from '../Side3/slide3'
+const desc = () => {
   return (
     <div className='bg-gray-400 p-12 grid xl:grid-cols-3 gap-10 lg:grid-cols-2 max-lg:px-[7rem] max-sm:px-3 overflow-x-hidden overflow-y-hidden max-shrink:text-xs'>
         {/* <Side1/>
@@ -23,4 +23,4 @@ const index = () => {
   )
 }
 
-export default index
+export default desc

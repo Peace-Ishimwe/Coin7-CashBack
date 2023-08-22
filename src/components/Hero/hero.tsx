@@ -7,7 +7,7 @@ import brand5 from '../../assets/image 10.png'
 import searchIcon from '../../assets/ri_search-2-line.png'
 import group from '../../assets/Group 98.png'
 
-const index = () => {
+const hero = () => {
   return (
     <div className='flex flex-col gap-4 items-center relative'>
         <div className='w-full h-[300px] bg-gray-700/90 relative'>
@@ -21,27 +21,27 @@ const index = () => {
            <img src={searchIcon} alt="" className='absolute left-[90%] max-res:left-[77%]'/>
         </div>
         <div className='grid grid-cols-5 gap-8 max-md:grid-cols-4 max-res:gap-3 max-res:grid-cols-3' data-aos='fade-up'>
-            <a href='https://www.aliexpress.com/' target="_blank" className='bg-white h-[100%] p-2 rounded-xl flex flex-col justify-center items-center hover:scale-x-110 hover:scale-y-125 hover:transition ease-in-out delay-150'>
+            <a href='https://www.aliexpress.com/' className='bg-white h-[100%] p-2 rounded-xl flex flex-col justify-center items-center hover:scale-x-110 hover:scale-y-125 hover:transition ease-in-out delay-150'>
                <img src={brand1} alt="" className='h-7'/>
                <p className=' text-sm'>Ali Express</p>
             </a>
 
-            <a href='https://www.ebay.com/' target="_blank" className='bg-white h-[100%] p-2 rounded-xl flex flex-col justify-center items-center hover:scale-x-110 hover:scale-y-125 hover:transition ease-in-out delay-150'>
+            <a href='https://www.ebay.com/' className='bg-white h-[100%] p-2 rounded-xl flex flex-col justify-center items-center hover:scale-x-110 hover:scale-y-125 hover:transition ease-in-out delay-150'>
                <img src={brand2} alt="" className='h-7'/>
                <p className=' text-sm'>Ebay</p>
             </a>
 
-            <a href='https://www.apple.com/' target="_blank" className='bg-white h-[100%] p-2 rounded-xl flex flex-col justify-center items-center px-6 hover:scale-x-110 hover:scale-y-125 hover:transition ease-in-out delay-150'>
+            <a href='https://www.apple.com/' className='bg-white h-[100%] p-2 rounded-xl flex flex-col justify-center items-center px-6 hover:scale-x-110 hover:scale-y-125 hover:transition ease-in-out delay-150'>
                <img src={brand3} alt="" className='h-7'/>
                <p className=' text-sm'>Apple</p>
             </a>
 
-            <a href='https://www.adidas.com/us' target="_blank" className='bg-white h-[100%] rounded-xl flex flex-col justify-center items-center py-2 px-4 hover:scale-x-110 hover:scale-y-125 hover:transition ease-in-out delay-150'>
+            <a href='https://www.adidas.com/us' className='bg-white h-[100%] rounded-xl flex flex-col justify-center items-center py-2 px-4 hover:scale-x-110 hover:scale-y-125 hover:transition ease-in-out delay-150'>
                <img src={brand4} alt="" className='h-7'/>
                <p className=' text-sm'>Adidas</p>
             </a>
 
-            <a href='https://www.alibaba.com/' target="_blank" className='bg-white h-[100%] p-2 rounded-xl flex flex-col justify-center items-center hover:scale-x-110 hover:scale-y-125 hover:transition ease-in-out delay-150'>
+            <a href='https://www.alibaba.com/' className='bg-white h-[100%] p-2 rounded-xl flex flex-col justify-center items-center hover:scale-x-110 hover:scale-y-125 hover:transition ease-in-out delay-150'>
                <img src={brand5} alt="" className='h-7'/>
                <p className=' text-sm'>Alibaba</p>
             </a>
@@ -57,4 +57,4 @@ const index = () => {
   )
 }
 
-export default index
+export default hero

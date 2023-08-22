@@ -30,7 +30,7 @@ import page2 from '../../assets/image 29-1.png'
 import {useState} from 'react'
 
 
-const index = () => {
+const Slide2: React.FC = () => {
   const [open4,setOpen4] = useState(false)
   const handleCard4=()=>{
     setOpen4(!open4)
@@ -70,32 +70,32 @@ const index = () => {
         </div>
 
         <div className={open4?"hidden":"grid grid-cols-4"}>
-          <a href="https://www.microsoft.com/en-us/microsoft-365/word" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://www.microsoft.com/en-us/microsoft-365/word" className="flex flex-col items-center text-center">
             <img src={icons6} alt="" className="h-[4rem]" />
             <p>Word doc</p>
           </a>
 
-          <a href="https://www.microsoft.com/en-us/?ql=2" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://www.microsoft.com/en-us/?ql=2" className="flex flex-col items-center text-center">
             <img src={icons1} alt="" className="h-[4rem]" />
             <p>Mircosoft</p>
           </a>
 
-          <a href="https://www.gmail.com/" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://www.gmail.com/" className="flex flex-col items-center text-center">
             <img src={icons2} alt="" className="h-[4rem]" />
             <p>Gmail</p>
           </a>
 
-          <a href="https://chat.openai.com/" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://chat.openai.com/" className="flex flex-col items-center text-center">
             <img src={icons3} alt="" className="h-[4rem]" />
             <p>Chatgpt</p>
           </a>
 
-          <a href="https://www.whatsapp.com/" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://www.whatsapp.com/" className="flex flex-col items-center text-center">
             <img src={icons4} alt="" className="h-[4rem]" />
             <p>Whatsapp</p>
           </a>
 
-          <a href="https://www.instagram.com/" target="_blank" className="flex flex-col items-center text-center pb-9">
+          <a href="https://www.instagram.com/" className="flex flex-col items-center text-center pb-9">
             <img src={icons5} alt="" className="h-[4rem]" />
             <p>Instagram</p>
           </a>
@@ -114,22 +114,22 @@ const index = () => {
         </div>
 
         <div className={open5 ? "hidden" : "grid grid-cols-4 max-div:grid-cols-3"}>
-        <a href="https://www.managemypain.net/" target="_blank" className="flex flex-col items-center text-center">
+        <a href="https://www.managemypain.net/" className="flex flex-col items-center text-center">
             <img src={app1} alt="" className="h-[4rem]" />
             <p>Manage My Pain</p>
           </a>
 
-          <a href="https://assistant.google.com/" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://assistant.google.com/" className="flex flex-col items-center text-center">
             <img src={app2} alt="" className="h-[4rem]" />
             <p>Google Assistant</p>
           </a>
 
-          <a href="https://home.google.com/welcome/" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://home.google.com/welcome/" className="flex flex-col items-center text-center">
             <img src={app3} alt="" className="h-[4rem]" />
             <p>Google Home</p>
           </a>
 
-          <a href="https://workspace.google.com/" target="_blank" className="flex flex-col items-center text-center pb-10">
+          <a href="https://workspace.google.com/" className="flex flex-col items-center text-center pb-10">
             <img src={app4} alt="" className="h-[4rem]" />
             <p>Google Calendar</p>
           </a>
@@ -148,7 +148,7 @@ const index = () => {
         </div>
 
         <div className={open6?"hidden":"flex flex-col gap-3 pb-10"}>
-          <a href="cookpad.com" target="_blank" className="flex flex-row gap-3 px-10 text-lg">
+          <a href="cookpad.com" className="flex flex-row gap-3 px-10 text-lg">
             <img src={address1} alt="" className=" w-[12%]" />
             <div className="flex flex-col">
               <h3 className="font-bold">Cookpad</h3>
@@ -156,7 +156,7 @@ const index = () => {
             </div>
           </a>
           <hr />
-          <a href="Homes.com" target="_blank" className="flex flex-row gap-3 px-10 text-lg">
+          <a href="Homes.com" className="flex flex-row gap-3 px-10 text-lg">
             <img src={address2} alt="" className=" w-[12%]" />
             <div className="flex flex-col">
               <h3 className="font-bold">Homes</h3>
@@ -164,7 +164,7 @@ const index = () => {
             </div>
           </a>
           <hr />
-          <a href="vrbo.com" target="_blank" className="flex flex-row gap-3 px-10 text-lg pb-6">
+          <a href="vrbo.com" className="flex flex-row gap-3 px-10 text-lg pb-6">
             <img src={address3} alt="" className=" w-[10%] h-[50%] mt-3" />
             <div className="flex flex-col">
               <h3 className="font-bold">Vrbo</h3>
@@ -186,22 +186,22 @@ const index = () => {
         </div>
 
         <div className={open7?"hidden":"grid grid-cols-4"}>
-        <a href="https://onionbrowser.com/" target="_blank" className="flex flex-col items-center text-center">
+        <a href="https://onionbrowser.com/" className="flex flex-col items-center text-center">
             <img src={search1} alt="" className="h-[4rem]" />
             <p>Onion</p>
           </a>
 
-          <a href="https://imovie.com/" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://imovie.com/" className="flex flex-col items-center text-center">
             <img src={search2} alt="" className="h-[4rem]" />
             <p>Video Editing Tool</p>
           </a>
 
-          <a href="Riddler.io" target="_blank" className="flex flex-col items-center text-center">
+          <a href="Riddler.io" className="flex flex-col items-center text-center">
             <img src={search3} alt="" className="h-[4rem]" />
             <p>Riddler.io</p>
           </a>
 
-          <a href="https://www.seo.com/" target="_blank" className="flex flex-col items-center text-center pb-10">
+          <a href="https://www.seo.com/" className="flex flex-col items-center text-center pb-10">
             <img src={search4} alt="" className="h-[4rem]" />
             <p>SEO Extension</p>
           </a>
@@ -220,7 +220,7 @@ const index = () => {
         </div>
 
         <div className={open8?"hidden":"flex flex-col gap-3 pb-10"}>
-          <a href="https://cookpad.com/" target="_blank" className="flex flex-row gap-3 px-10 text-lg">
+          <a href="https://cookpad.com/" className="flex flex-row gap-3 px-10 text-lg">
             <img src={address1} alt="" className=" w-[12%]" />
             <div className="flex flex-col">
               <h3 className="font-bold">Android App</h3>
@@ -228,7 +228,7 @@ const index = () => {
             </div>
           </a>
           <hr />
-          <a href="https://github.com/" target="_blank" className="flex flex-row gap-3 px-10 text-lg">
+          <a href="https://github.com/" className="flex flex-row gap-3 px-10 text-lg">
             <img src={page1} alt="" className=" w-[12%]" />
             <div className="flex flex-col">
               <h3 className="font-bold">Archived today</h3>
@@ -236,7 +236,7 @@ const index = () => {
             </div>
           </a>
           <hr />
-          <a href="https://vbro/" target="_blank" className="flex flex-row gap-3 px-10 text-lg pb-6">
+          <a href="https://vbro/" className="flex flex-row gap-3 px-10 text-lg pb-6">
             <img src={page2} alt="" className=" w-[12%]" />
             <div className="flex flex-col">
               <h3 className="font-bold">Vrbo</h3>
@@ -249,4 +249,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Slide2;

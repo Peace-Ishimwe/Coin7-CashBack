@@ -15,7 +15,7 @@ import Chart from '../Chart'
 import {useState} from 'react'
 
 
-const index = () => {
+const Slide3: React.FC = () => {
   const [open9,setOpen9] = useState(false)
   const handleCard9=()=>{
     setOpen9(!open9)
@@ -51,31 +51,31 @@ const index = () => {
         </div>
 
         <div className={open9?"hidden":"grid grid-cols-5"}>
-          <a href="https://weather.com/" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://weather.com/" className="flex flex-col items-center text-center">
             <p>Sunday</p>
             <img src={icons2} alt="" className="h-[4rem]" />
             <p>10C</p>
           </a>
 
-          <a href="https://weather.com/" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://weather.com/" className="flex flex-col items-center text-center">
             <p>Monday</p>
             <img src={icons1} alt="" className="h-[4rem]" />
             <p>35C</p>
           </a>
 
-          <a href="https://weather.com/" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://weather.com/" className="flex flex-col items-center text-center">
             <p>Tuesday</p>
             <img src={icons1} alt="" className="h-[4rem]" />
             <p>35C</p>
           </a>
 
-          <a href="https://weather.com/" target="_blank" className="flex flex-col items-center text-center">
+          <a href="https://weather.com/" className="flex flex-col items-center text-center">
             <p>Wednesday</p>
             <img src={icons1} alt="" className="h-[4rem]" />
             <p>35C</p>
           </a>
 
-          <a href="https://weather.com/" target="_blank" className="flex flex-col items-center text-center pb-9">
+          <a href="https://weather.com/" className="flex flex-col items-center text-center pb-9">
             <p>Thursday</p>
             <img src={icons2} alt="" className="h-[4rem]" />
             <p>20C</p>
@@ -144,7 +144,7 @@ const index = () => {
         </div>
 
         <div className={open12?"hidden":"flex flex-col gap-4 px-10"}>
-          <a href="https://news.microsoft.com/" target="_blank" className="flex flex-row gap-3">
+          <a href="https://news.microsoft.com/" className="flex flex-row gap-3">
             <img src={people} alt=""/>
             <div className="flex flex-col">
               <h3 className="font-bold text-xl">Joe Alwyn 'a new man' after Taylor Swift split</h3>
@@ -155,7 +155,7 @@ const index = () => {
             </div>
           </a>
 
-          <a href="https://news.microsoft.com/" target="_blank" className="flex flex-row gap-3">
+          <a href="https://news.microsoft.com/" className="flex flex-row gap-3">
             <img src={people1} alt="" />
             <div className="flex flex-col">
               <h3 className="font-bold text-xl">Tory Lanez 'refuses to be eliminated</h3>
@@ -165,7 +165,7 @@ const index = () => {
             </div>
           </a>
 
-          <a href="https://news.microsoft.com/" target="_blank" className="flex flex-row gap-3 pb-10">
+          <a href="https://news.microsoft.com/" className="flex flex-row gap-3 pb-10">
             <img src={peopl2} alt="" />
             <div className="flex flex-col">
               <h3 className="font-bold text-xl">Shania Twain feels for Céline Dion</h3>
@@ -180,4 +180,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Slide3;
