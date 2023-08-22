@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400&display=swap');
+
+
+.background {
+  background-image: url(./assets/Group\ 98.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'DM Sans', sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Style for the select element */
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #f4f4f4;
+  border: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Style for the option elements */
+option {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  font-size: 14px;
+  cursor: pointer;
+  height: 10rem;
+}
+
+.card1 {
+  background: #fff;
+  backdrop-filter: blur(2px);
+}
+
+.card2 {
+  background: #edffe9;
+  backdrop-filter: blur(2px);
+}
+
+.card3 {
+  background: #ffeed4;
+  backdrop-filter: blur(2px);
+}
+
+.close{
+  height: 20%;
+}
+
+.content{
+  display: none;
+}
+
+.active-content{
+  display: block;
+}
+
+.active-tabs{
+  color: red;
+  border-bottom: 2px solid red;
+
+}
+
+a[aria-current="page"]{
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.scaled{
+  transform: scale(2, 2);
+}
+
+@media screen and (max-width:1760px) {
+  .divs{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    display: none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width:470px) {
+  body{
+    overflow-x: hidden;
+    width: 100vw;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width:400px) {
+  body{
+    overflow-x: hidden;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width:792px) {
+  .select{
+    position: relative;
+    top: 5rem;
+    right: 10%;
   }
 }
